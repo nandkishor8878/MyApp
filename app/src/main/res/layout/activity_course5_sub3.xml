@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.myapp.Course5Sub3Activity">
+
+    <Button
+        android:id="@+id/c5s3p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Qustion Papers"
+        android:onClick="browserc5s3p"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="83dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/c5s3n"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lacture Notes"
+        android:onClick="browserc5s3n"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="306dp"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>

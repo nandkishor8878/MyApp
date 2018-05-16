@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.myapp.Course1Activity">
+
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/c1s1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:onClick="onClickc1s1"
+            android:background="@android:drawable/status_bar_item_background"
+            android:text="Fluidization Engineering" />
+
+        <Button
+            android:id="@+id/c1s2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/c1s1"
+            android:onClick="onClickc1s2"
+            android:background="@android:drawable/status_bar_item_background"
+            android:text="Mass Transfer" />
+
+
+        <Button
+            android:id="@+id/c1s3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/c1s2"
+            android:onClick="onClickc1s3"
+            android:background="@android:drawable/status_bar_item_background"
+            android:text="Chemical Reaction Engineering" />
+
+        <Button
+            android:id="@+id/c1s4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/c1s3"
+            android:onClick="onClickc1s4"
+            android:background="@android:drawable/status_bar_item_background"
+            android:text="Chemical Technology" />
+
+        <Button
+            android:id="@+id/c1s5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/c1s4"
+            android:onClick="onClickc1s5"
+            android:background="@android:drawable/status_bar_item_background"
+            android:text="process dynamics and control" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

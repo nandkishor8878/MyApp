@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.myapp.Course1Sub1Activity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/c1s1p"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:drawable/status_bar_item_background"
+        android:onClick="browserc1s1p"
+        android:text="Qustion Papers"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <Button
+        android:id="@+id/c1s1n"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/c1s1p"
+        android:background="@android:drawable/status_bar_item_background"
+        android:onClick="browserc1s1n"
+        android:text="Lacture Notes"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="306dp" />
+</RelativeLayout>
+</android.support.constraint.ConstraintLayout>

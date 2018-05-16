@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dell.myapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logomainthird"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".WellComeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ProfileActivity" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity android:name=".ContactActivity" />
+        <activity android:name=".BookmarkActivity" />
+        <activity android:name=".FeedbackActivity" />
+        <activity android:name=".Course1Activity" />
+        <activity android:name=".Course2Activity" />
+        <activity android:name=".Course3Activity" />
+        <activity android:name=".Course4Activity" />
+        <activity android:name=".Course5Activity" />
+        <activity android:name=".Course1Sub1Activity" />
+        <activity android:name=".Course1Sub2Activity" />
+        <activity android:name=".Course1Sub3Activity" />
+        <activity android:name=".Course1Sub4Activity" />
+        <activity android:name=".Course1Sub5Activity" />
+        <activity android:name=".Course2Sub1Activity" />
+        <activity android:name=".Course2Sub2Activity" />
+        <activity android:name=".Course2Sub3Activity" />
+        <activity android:name=".Course2Sub4Activity" />
+        <activity android:name=".Course2Sub5Activity" />
+        <activity android:name=".Course3Sub1Activity" />
+        <activity android:name=".Course3Sub2Activity" />
+        <activity android:name=".Course3Sub3Activity" />
+        <activity android:name=".Course3Sub4Activity" />
+        <activity android:name=".Course3Sub5Activity" />
+        <activity android:name=".Course4Sub1Activity" />
+        <activity android:name=".Course4Sub2Activity" />
+        <activity android:name=".Course4Sub3Activity" />
+        <activity android:name=".Course4Sub4Activity" />
+        <activity android:name=".Course4Sub5Activity" />
+        <activity android:name=".Course5Sub1Activity" />
+        <activity android:name=".Course5Sub2Activity" />
+        <activity android:name=".Course5Sub3Activity" />
+        <activity android:name=".Course5Sub4Activity" />
+        <activity android:name=".Course5Sub5Activity"></activity>
+    </application>
+
+</manifest>
